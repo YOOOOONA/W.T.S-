@@ -177,14 +177,28 @@ app = Flask(__name__)
 def home():
   return render_template('index.html')
 
-@app.route('/preview')
+@app.route('/preview_castle.html')
 def preview():
-
-    return render_template('preview.html', test=Matrix, 
+    return render_template('preview_castle.html', test=Matrix, 
                            test2012 = Matrix2012, test2013 = Matrix2013, 
                            test2014 = Matrix2014, test2015 = Matrix2015, 
                            test2016 = Matrix2016, test2017 = Matrix2017, 
                            test2018 = Matrix2018, test2019 = Matrix2019)
+@app.route('/predict_castle')
+def predict_castle():
+    return render_template('predict_castle.html')
+@app.route('/map_castle.html')
+def map_castle():
+    return render_template('map_castle.html')
+@app.route('/info_castle_1.html')
+def info_castle_1():
+    return render_template('info_castle_1.html')
+@app.route('/info_castle_2.html')
+def info_castle_2():
+    return render_template('info_castle_2.html')
+@app.route('/info_castle_3.html')
+def info_castle_3():
+    return render_template('info_castle_3.html')
 
 @app.route('/index.html')
 def home2():

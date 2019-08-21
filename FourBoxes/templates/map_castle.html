@@ -22,8 +22,8 @@
 			<!-- Top Navigation -->
 			<div class="navbar">
 				<a href="index.html">NOONCHIGAME</a>
-				<a href="preview_castle.hrml">과거 관람객</a>
-				<a href="preview_castle.hrml">이번주 관람객</a>
+				<a href="preview_castle.html">과거 관람객</a>
+				<a href="predict_castle.html">이번주 관람객</a>
 				<a href="map_castle.html">경복궁&주변</a>
 				<div class="dropdown">
     				<button class="dropbtn" onclick="myFunction()">경복궁 행사 
@@ -91,8 +91,7 @@
 					
 					      google.maps.event.addListener(marker, 'click', (function(marker, i) {
 					        return function() {
-					          infowindow.setContent(locations[i][0]+'<p>Attribution: Uluru, <a href='+location[i][3]+'>'+
-					            '리뷰보러가기</a></p> ');
+					          infowindow.setContent(locations[i][0]+'<p>Attribution: Uluru, <a href='+location[i][3]+'>'+'리뷰보러가기</a></p> ');
 					          infowindow.open(map, marker);
 					        }
 					      })(marker, i));
