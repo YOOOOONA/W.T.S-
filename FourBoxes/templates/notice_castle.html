@@ -1,3 +1,4 @@
+<<<<<<< HEAD:FourBoxes/templates/notice_castle.html
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -73,4 +74,81 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</body>
+=======
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Four Boxes Slideshow | Demo 1</title>
+		<meta name="description" content="Four Boxes Slideshow: Recreating the background image slideshow seen on Atelier Serge Thoroval's website" />
+		<meta name="keywords" content="background slideshow, boxes, background image, four panels, css, tutorial" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../../noon2.ico">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../static/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="../static/js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="navbar">
+				<a href="index.html">NOONCHIGAME</a>
+				<a href="preview_castle.html">과거 관람객</a>
+				<a href="predict_castle.html">이번주 관람객</a>
+				<a href="map_castle.html">경복궁&주변</a>
+				<div class="dropdown">
+    				<button class="dropbtn" onclick="myFunction()">경복궁 행사 
+      					<i class="fa fa-caret-down"></i>
+    				</button>
+    				<div class="dropdown-content" id="myDropdown">
+				      <a href="info_castle_1.html">수라간 시식 공감</a>
+				      <a href="info_castle_2.html">주●야간 전통공연</a>
+				      <a href="info_castle_3.html">수문장 교대의식</a>
+				      <a href="notice_castle.html">공지사항</a>
+				    </div>
+			    </div>
+				
+			</div>
+		<!-- 	<div class="codrops-top clearfix">
+				<a href="index.html"><span>noonchigame</span></a>
+				<span class="right">
+					<a class="codrops-icon codrops-icon-drop" href="preview_castle.html"><span>과거 혼잡도</span></a>
+					<a class="codrops-icon codrops-icon-drop" href="info_castle.html"><span>경복궁 행사 정보</span></a>
+					<a class="codrops-icon codrops-icon-drop" href="map_castle.html"><span>경복궁&주변</span></a>
+				</span>
+			</div> -->
+			
+				<div class="panel"><img src="../static/img/경복궁.jpeg" alt="Image 1" style="opacity:0.1" width=100% height=100%/>
+				
+				</div>
+				
+		
+		</div><!-- /container -->
+		<script>
+			function myFunction(){
+				document.getElementById("myDropdown").classList.toggle("show")
+			}
+			window.onclick=function(e){
+				if(!e.target.matches('.dropbtn')){
+					var myDropdown=document.getElementById("myDropdown");
+						if(myDropdown.classList.contains('show')){
+							myDropdown.classList.remove('show');
+						}
+				}
+			}
+		</script>
+		<script src="../static/js/classie.js"></script>
+		<script src="../static/js/boxesFx.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script>new BoxesFx( document.getElementById( 'boxgallery' ) );</script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+>>>>>>> 2b2e05ef49e80d512f11047a1bb392cdc3f614db:FourBoxes/templates/notice_castle.html
 </html>
