@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+.center{
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   text-align: right;
+   max-width: 1000px;
+   -webkit-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+}
+.left{
+   position: absolute;
+   top: 60%;
+   left : 36%;
+   top-margin:100px;
+   max-width: 1000px;
+   -webkit-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+}
+.map{
+   width : 500px;
+   height : 400px;
+   color : black;
+}
+
+.aa{
+   color : black;
+}
