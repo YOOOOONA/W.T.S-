@@ -1,10 +1,3 @@
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Aug  3 19:08:40 2019
-@author: 은비
-"""
-
 from flask import Flask, render_template
 from datetime import datetime
 from glob import glob
@@ -205,3 +198,4 @@ def home2():
 @app.route('/notice_castle.html')
 def notice_castle():
     return render_template('notice_castle.html')
+
