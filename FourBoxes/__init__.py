@@ -192,12 +192,10 @@ def info_castle_2():
 @app.route('/info_castle_3.html')
 def info_castle_3():
     return render_template('info_castle_3.html')
-
 @app.route('/index.html')
 def home2():
     return render_template('index.html')
-"""
-@app.route('/select.html')
-def select():
-    return render_template('select.html')
-    """
+@app.route('/notice_castle.html')
+def notice_castle():
+    return render_template('notice_castle.html')
+
